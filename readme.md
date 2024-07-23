@@ -16,18 +16,28 @@ python concept_graph_construction.py
 
 ## Usage
 
-Download the benchmarks from [here](https://drive.google.com/file/d/1A-_FpBxgtuYurP7DRluBD39h0LCOw4Ai/view?usp=sharing) and extract them to the `./` directory.
+Follow the steps below to use the MTN for training on various datasets and settings.
 
-Run the following command to train the model on different datasets and settings.
-    
-For conventional setting:
+1. **Download the Benchmarks**
 
-```bash
-python main.py --data_path benchmarks/conventional_setting/LectureBank/ --fold_id 0
-```
+   Download the benchmarks from [this link](https://drive.google.com/file/d/1ufYxZG4HPIAMzW1bxeGTnrEM2w4xQOcn/view?usp=sharing) and extract them to the `./` directory.
 
-For hard setting:
+2. **Train the Model**
 
-```bash
-python main.py --data_path benchmarks/hard_setting/LectureBank/ --fold_id 0
-```
+   To train the model on different datasets and settings, use the following commands:
+
+   #### Conventional Setting
+
+   Taking the LectureBank dataset fold 0 as an example, run the following command:
+
+    ```bash
+    python main.py --data_path benchmarks/conventional_setting/LectureBank/ --fold_id 0
+    ```
+
+   #### Hard Setting
+
+    Similarly, for hard setting:
+
+    ```bash
+    python main.py --data_path benchmarks/hard_setting/LectureBank/ --fold_id 0
+    ```
