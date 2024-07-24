@@ -2,7 +2,11 @@
 
 Source code for "Multi-view Transformer-based Network for Prerequisite Learning in Concept Graphs".
 
-## Environment
+## Overview
+
+We use [PyTorch](https://pytorch.org/) and [Transformers](https://huggingface.co/transformers/) to implement the MTN model. The model utilizes a multi-view transformer-based network to learn the prerequisites in concept graphs.
+
+## Requirements
 
 To install the required dependencies, run:
 
